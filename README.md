@@ -24,6 +24,8 @@ we would name it `PBI Cab Map 2211`, for the KPBI map developed in November 2022
 files.
 6) Click "OKAY".
 
+*Learn better visually?  Check out this video tutorial: [https://www.youtube.com/watch?v=lv8oFC_QyuA](https://www.youtube.com/watch?v=lv8oFC_QyuA)*
+
 If you received a popup that said "Success!", then your master GeoJSON file was successfully
 generated and is located in the same directory as the GJC executable.
 
