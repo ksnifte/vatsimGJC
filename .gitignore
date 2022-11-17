@@ -1,4 +1,7 @@
 .idea*
-target*
+target/*/*
+target/gjc-*.*.jar
+!target/gjc-*.*-shaded.jar
+target/original-gjc-*.*.jar
 *.iml
 out/*

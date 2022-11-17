@@ -72,18 +72,14 @@ public class GJC {
 		List<JSONObject> airportElements = new ArrayList<JSONObject>();
 
 		for (File file : files) {
-			log.append(file.getName());
+			log.append("OPENING FILE:" + file.getName() + "\n");
 
 			String rawFileContent = "";
-			log.append("1");
 			try {
-				log.append("2");
 				rawFileContent = Files.asCharSource(file, Charsets.UTF_8).read();
-				log.append("3");
-				log.append(rawFileContent);
 			} catch (IOException e) {
 				e.printStackTrace();
-				log.append("Error opening files");
+				log.append("Error opening file: " + file.getName() + "\n");
 				return 1;
 			}
 
@@ -108,14 +104,16 @@ public class GJC {
 			writer.close();
 		} catch (FileNotFoundException e) {
 			e.printStackTrace();
-			log.append("File Not Found");
+			log.append("Output File Not Found");
 			return 1;
 		} catch (UnsupportedEncodingException e) {
 			e.printStackTrace();
-			log.append("Unsupported Encoding");
+			log.append("Output File Unsupported Encoding");
 			return 1;
 		}
 
+
+		log.append("\nSUCCESS: Saved '" + masterFileName + ".geojson'!\n");
 		return 0;
 	}
 }
