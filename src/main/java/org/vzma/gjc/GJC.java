@@ -81,6 +81,8 @@ public class GJC {
 				e.printStackTrace();
 				log.append("Error opening file: " + file.getName() + "\n");
 				return 1;
+			} catch (Exception e){
+				log.append(e.getMessage());
 			}
 
 			JSONObject jsonObject = new JSONObject(rawFileContent);
@@ -110,6 +112,8 @@ public class GJC {
 			e.printStackTrace();
 			log.append("Output File Unsupported Encoding");
 			return 1;
+		} catch (Exception e){
+			log.append(e.getMessage());
 		}
 
 
