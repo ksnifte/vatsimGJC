@@ -3,7 +3,7 @@ A basic software to coalesce GeoJSON files for VATSIM CRC
 
 ----------------
 
-###PURPOSE
+### PURPOSE
 
 When creating GeoJSON maps for VATSIM's CRC, it can be tedious (and error-prone) 
 to manually coalesce all your individual GeoJSON layers into one master file to upload to the vNAS
@@ -14,7 +14,7 @@ the master file that is required for CRC, reducing workload and likelihood of Ge
 formatting errors.
 
 
-###HOW TO USE
+### HOW TO USE
 1) Download GJC from the [RELEASES PAGE](https://github.com/ksnifte/vatsimGJC/releases/tag/1.0).
 2) Install [Java Runtime 19](https://www.oracle.com/java/technologies/downloads/) on your computer.
 3) Run GJC.
