@@ -15,7 +15,7 @@ formatting errors.
 
 
 ### HOW TO USE
-1) Download GJC from the [RELEASES PAGE](https://github.com/ksnifte/vatsimGJC/releases/tag/1.0).
+1) Download GJC from the [RELEASES PAGE](https://github.com/ksnifte/vatsimGJC/releases).
 2) Install [Java Runtime 19](https://www.oracle.com/java/technologies/downloads/) on your computer.
 3) Run GJC.
 4) Enter the desired master GeoJSON file name in the text field.  *For example, in the ZMA ARTCC, 
